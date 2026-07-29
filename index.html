@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arqlántico — Architecture & Urban Design Studio</title>
+<meta name="description" content="Arqlántico is an architecture and urban design studio specialising in early-stage design and feasibility, guiding ambitious projects from first concept to proven viability across residential, urban, sports and transportation typologies.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='17' fill='none' stroke='%23A9824C' stroke-width='2'/%3E%3Cline x1='20' y1='4' x2='20' y2='11' stroke='%23A9824C' stroke-width='2'/%3E%3Cline x1='20' y1='29' x2='20' y2='36' stroke='%23A9824C' stroke-width='2'/%3E%3Cline x1='4' y1='20' x2='11' y2='20' stroke='%23A9824C' stroke-width='2'/%3E%3Cline x1='29' y1='20' x2='36' y2='20' stroke='%23A9824C' stroke-width='2'/%3E%3Ccircle cx='20' cy='20' r='3.5' fill='%23A9824C'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__mark" aria-label="Arqlántico — home">
+    <svg viewBox="0 0 40 40" class="nav__compass" aria-hidden="true">
+      <circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <line x1="20" y1="3" x2="20" y2="11" stroke="currentColor" stroke-width="1.4"/>
+      <line x1="20" y1="29" x2="20" y2="37" stroke="currentColor" stroke-width="1.4"/>
+      <line x1="3" y1="20" x2="11" y2="20" stroke="currentColor" stroke-width="1.4"/>
+      <line x1="29" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="20" cy="20" r="3" fill="currentColor"/>
+    </svg>
+    <span class="nav__word">Arqlántico</span>
+  </a>
+
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#studio">Studio</a>
+    <a href="#process">Process</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a href="#contact" class="nav__cta">Start a project</a>
+
+  <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#studio">Studio</a>
+  <a href="#process">Process</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__carousel" id="heroCarousel">
+    <img class="hero__img is-active" src="assets/img/hero.jpg" alt="Sculptural contemporary architecture with a dramatic curved form against an evening sky">
+    <img class="hero__img" src="assets/img/hero-carousel/hero-01-public-realm.jpg" alt="Public realm design with pitched brick pavilions, a flowering living wall and a landscaped promenade">
+    <img class="hero__img" src="assets/img/hero-carousel/hero-02-pool-house.jpg" alt="Sculptural contemporary villa with curved white forms and an infinity pool at dusk">
+    <img class="hero__img" src="assets/img/hero-carousel/hero-03-wood-cabin.jpg" alt="Minimalist timber-clad cabin with a pitched black roof in a wildflower meadow at sunset">
+    <img class="hero__img" src="assets/img/hero-carousel/hero-04-tree-house.jpg" alt="Cantilevered multi-storey residential building with a tree growing through an open terrace">
+    <img class="hero__img" src="assets/img/hero-carousel/hero-05-view-park.jpg" alt="Multi-residential development with a landscaped courtyard, garden and pond">
+  </div>
+  <div class="hero__scrim"></div>
+
+  <div class="hero__grid">
+    <p class="eyebrow hero__eyebrow" data-reveal>Architecture &amp; Urban Design Studio</p>
+    <h1 class="hero__title" data-reveal>Singularity is<br>part of our <em>DNA.</em></h1>
+    <p class="hero__sub" data-reveal>We shape the earliest, most decisive moments of a project — from
+      first sketch to proven feasibility — turning ambitious visions into landmarks within the city.</p>
+    <div class="hero__actions" data-reveal>
+      <a href="#contact" class="btn btn--solid">Start a project</a>
+      <a href="#process" class="btn btn--ghost">Our approach</a>
+    </div>
+  </div>
+
+  <div class="hero__meta">
+    <span>N 36°30′ · Coastal &amp; Urban Studio</span>
+    <span class="hero__scroll">Scroll</span>
+  </div>
+</section>
+
+<!-- ===== STUDIO / ABOUT ===== -->
+<section class="studio" id="studio">
+  <div class="studio__grid">
+    <div class="studio__text">
+      <p class="eyebrow" data-reveal>Studio</p>
+      <h2 class="h2" data-reveal>Design, guided<br>by vision.</h2>
+      <p class="studio__lede" data-reveal>We are specialists in design. Working hand in hand with each
+        client's vision, we create architecture distinctive enough to become a landmark within its city.</p>
+      <p class="body" data-reveal>We walk alongside you through the entire process, making sure every
+        design decision holds true to your expectations. And once you're ready to build, we stay close —
+        advising and supervising together with your trusted builder, all the way to completion.</p>
+
+      <dl class="studio__stats" data-reveal>
+        <div><dt>Typologies</dt><dd>Residential, urban, civic &amp; sport</dd></div>
+        <div><dt>Focus</dt><dd>Concept through feasibility</dd></div>
+        <div><dt>Method</dt><dd>Design, data &amp; visualisation</dd></div>
+      </dl>
+    </div>
+
+    <div class="studio__media" data-reveal>
+      <img src="assets/img/philosophy.jpg" alt="Aerial view of a city skyline at dusk, illustrating the studio's urban design work">
+      <span class="studio__media-cap">Together, we make city.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS / FEASIBILITY ===== -->
+<section class="process" id="process">
+  <img class="process__bg" src="assets/img/feasibility.jpg" alt="" aria-hidden="true">
+  <div class="process__scrim"></div>
+
+  <div class="process__head">
+    <p class="eyebrow eyebrow--light" data-reveal>Our Process</p>
+    <h2 class="h2 h2--light" data-reveal>Feasibility first.<br>Certainty before commitment.</h2>
+    <p class="process__lede" data-reveal>Giving shape to a development is a daunting task. We walk with
+      you through the entire feasibility process, testing design alternatives side by side until your
+      project reaches its most buildable, most profitable version — weaving residential, hospitality,
+      retail, urban and landscape design into a single, coherent proposal.</p>
+  </div>
+
+  <div class="process__diagram" data-reveal>
+    <svg viewBox="0 0 1200 220" class="process__svg" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="40" y1="110" x2="1160" y2="110" class="process__baseline"/>
+      <line id="processLine" x1="40" y1="110" x2="1160" y2="110" class="process__line"/>
+    </svg>
+
+    <div class="process__steps">
+      <div class="process__step" data-reveal>
+        <span class="process__num">01</span>
+        <span class="process__node"></span>
+        <h3>Concept</h3>
+        <p>Site analysis and first design alternatives, tested against the brief.</p>
+      </div>
+      <div class="process__step" data-reveal>
+        <span class="process__num">02</span>
+        <span class="process__node"></span>
+        <h3>Feasibility</h3>
+        <p>Viability studies and massing options, optimised for value and buildability.</p>
+      </div>
+      <div class="process__step" data-reveal>
+        <span class="process__num">03</span>
+        <span class="process__node"></span>
+        <h3>Design Development</h3>
+        <p>Coordinated design from preliminary through detail, ready for tender.</p>
+      </div>
+      <div class="process__step" data-reveal>
+        <span class="process__num">04</span>
+        <span class="process__node"></span>
+        <h3>Delivery</h3>
+        <p>Advice and supervision alongside your trusted builder, through to completion.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="services__head">
+    <p class="eyebrow" data-reveal>Services</p>
+    <h2 class="h2" data-reveal>One studio, every<br>building typology.</h2>
+    <p class="services__lede" data-reveal>From a single private villa to the masterplan of a district,
+      we bring the same rigour to every scale — and the same early-phase discipline that keeps each
+      project grounded in what's actually buildable.</p>
+  </div>
+
+  <div class="services__grid">
+
+    <article class="card card--wide" data-reveal>
+      <div class="card__media">
+        <img src="assets/img/residential-private.jpg" alt="Minimalist contemporary villa with a pool, framed by palm trees at dusk">
+      </div>
+      <div class="card__body">
+        <span class="card__tag">Typ. 01</span>
+        <h3>Residential — Private Villas</h3>
+        <p>From premium family homes to the most exigent luxury briefs, we design tailored living
+          spaces built to the highest standard — pushing past convention wherever imagination allows.</p>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="assets/img/multi-residential.jpg" alt="Modern multi-storey residential building with balconies and landscaping">
+      </div>
+      <div class="card__body">
+        <span class="card__tag">Typ. 02</span>
+        <h3>Multi-Residential</h3>
+        <p>Pioneering shared living spaces designed around community — quality homes where people
+          live, gather and feel safe.</p>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="assets/img/urban-landscape.jpg" alt="Aerial render of a coastal urban promenade and landscaped waterfront">
+      </div>
+      <div class="card__body">
+        <span class="card__tag">Typ. 03</span>
+        <h3>Urban &amp; Landscape Design</h3>
+        <p>Helping shape communities from the urban fabric up — quality public space for citizens
+          of every age.</p>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="assets/img/sports-events.jpg" alt="Large stadium at dusk, illustrating a sports and events architecture project">
+      </div>
+      <div class="card__body">
+        <span class="card__tag">Typ. 04</span>
+        <h3>Sports &amp; Events</h3>
+        <p>Stadia, arenas and event venues designed as icons within the city's skyline — built for
+          the milestones of our shared social life.</p>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="assets/img/transportation.jpg" alt="Light-filled modern airport terminal interior">
+      </div>
+      <div class="card__body">
+        <span class="card__tag">Typ. 05</span>
+        <h3>Transportation</h3>
+        <p>Mobility is central to modern life. We design transit spaces that remove friction and
+          turn transit into experience.</p>
+      </div>
+    </article>
+
+    <article class="card card--wide card--dark" data-reveal>
+      <div class="card__media">
+        <img src="assets/img/technology.jpg" alt="Close-up of a sculptural architectural facade, part of a computational design study">
+      </div>
+      <div class="card__body">
+        <span class="card__tag">Typ. 06</span>
+        <h3>Technology &amp; Visual Storytelling</h3>
+        <p>We use VR, AI and immersive visualisation to let clients experience a project before it's
+          built — testing layouts, materials and atmosphere in real time, and telling its story in the
+          most compelling way possible.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <img class="contact__img" src="assets/img/contact-bg.jpg" alt="Aerial view of a coastal city at golden hour">
+  <div class="contact__scrim"></div>
+
+  <div class="contact__inner">
+    <p class="eyebrow eyebrow--light" data-reveal>Get in touch</p>
+    <h2 class="h2 h2--light" data-reveal>Let's shape<br>what's next.</h2>
+    <p class="contact__lede" data-reveal>Tell us about your site, your ambitions and your constraints —
+      we'll help you find the most buildable, most profitable version of your project.</p>
+
+    <div class="contact__row" data-reveal>
+      <a href="mailto:studio@arqlantico.com?subject=New%20project%20enquiry" class="btn btn--solid">
+        studio@arqlantico.com
+      </a>
+      <a href="tel:+34000000000" class="btn btn--ghost">+34 000 000 000</a>
+    </div>
+
+    <div class="contact__meta" data-reveal>
+      <div><span class="eyebrow eyebrow--light">Studio</span><p>Costa de la Luz, Spain</p></div>
+      <div><span class="eyebrow eyebrow--light">Scope</span><p>Concept · Feasibility · Design Development</p></div>
+      <div><span class="eyebrow eyebrow--light">Follow</span><p><a href="#">Instagram</a> · <a href="#">LinkedIn</a></p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__row">
+    <a href="#top" class="nav__mark">
+      <svg viewBox="0 0 40 40" class="nav__compass" aria-hidden="true">
+        <circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <line x1="20" y1="3" x2="20" y2="11" stroke="currentColor" stroke-width="1.4"/>
+        <line x1="20" y1="29" x2="20" y2="37" stroke="currentColor" stroke-width="1.4"/>
+        <line x1="3" y1="20" x2="11" y2="20" stroke="currentColor" stroke-width="1.4"/>
+        <line x1="29" y1="20" x2="37" y2="20" stroke="currentColor" stroke-width="1.4"/>
+        <circle cx="20" cy="20" r="3" fill="currentColor"/>
+      </svg>
+      <span class="nav__word">Arqlántico</span>
+    </a>
+    <p>&copy; <span id="year"></span> Arqlántico Studio. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
