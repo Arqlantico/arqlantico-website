@@ -10,7 +10,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -33,13 +33,19 @@
   </a>
 
   <nav class="nav__links" aria-label="Primary">
-    <a href="#studio">Studio</a>
-    <a href="#process">Process</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
+    <a href="#studio" data-i18n="nav.studio">Studio</a>
+    <a href="#process" data-i18n="nav.process">Process</a>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
   </nav>
 
-  <a href="#contact" class="nav__cta">Start a project</a>
+  <div class="lang-switch" id="langSwitch" role="group" aria-label="Language / Idioma / 语言">
+    <button type="button" class="lang-switch__btn" data-lang="en">EN</button>
+    <button type="button" class="lang-switch__btn" data-lang="es">ESP</button>
+    <button type="button" class="lang-switch__btn" data-lang="zh">中文</button>
+  </div>
+
+  <a href="#contact" class="nav__cta" data-i18n="nav.cta">Start a project</a>
 
   <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
     <span></span><span></span>
@@ -48,10 +54,10 @@
 
 <!-- mobile menu -->
 <div class="mobile-menu" id="mobileMenu">
-  <a href="#studio">Studio</a>
-  <a href="#process">Process</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
+  <a href="#studio" data-i18n="nav.studio">Studio</a>
+  <a href="#process" data-i18n="nav.process">Process</a>
+  <a href="#services" data-i18n="nav.services">Services</a>
+  <a href="#contact" data-i18n="nav.contact">Contact</a>
 </div>
 
 <!-- ===== HERO ===== -->
@@ -67,19 +73,19 @@
   <div class="hero__scrim"></div>
 
   <div class="hero__grid">
-    <p class="eyebrow hero__eyebrow" data-reveal>Architecture &amp; Urban Design Studio</p>
-    <h1 class="hero__title" data-reveal>Singularity is<br>part of our <em>DNA.</em></h1>
-    <p class="hero__sub" data-reveal>We shape the earliest, most decisive moments of a project — from
+    <p class="eyebrow hero__eyebrow" data-reveal data-i18n="hero.eyebrow">Architecture &amp; Urban Design Studio</p>
+    <h1 class="hero__title" data-reveal data-i18n-html="hero.title">Singularity is<br>part of our <em>DNA.</em></h1>
+    <p class="hero__sub" data-reveal data-i18n="hero.sub">We shape the earliest, most decisive moments of a project — from
       first sketch to proven feasibility — turning ambitious visions into landmarks within the city.</p>
     <div class="hero__actions" data-reveal>
-      <a href="#contact" class="btn btn--solid">Start a project</a>
-      <a href="#process" class="btn btn--ghost">Our approach</a>
+      <a href="#contact" class="btn btn--solid" data-i18n="hero.cta1">Start a project</a>
+      <a href="#process" class="btn btn--ghost" data-i18n="hero.cta2">Our approach</a>
     </div>
   </div>
 
   <div class="hero__meta">
-    <span>N 36°30′ · Coastal &amp; Urban Studio</span>
-    <span class="hero__scroll">Scroll</span>
+    <span>N 36°55′ · <span data-i18n="hero.meta">Coastal &amp; Urban Studio</span></span>
+    <span class="hero__scroll" data-i18n="hero.scroll">Scroll</span>
   </div>
 </section>
 
@@ -87,24 +93,24 @@
 <section class="studio" id="studio">
   <div class="studio__grid">
     <div class="studio__text">
-      <p class="eyebrow" data-reveal>Studio</p>
-      <h2 class="h2" data-reveal>Design, guided<br>by vision.</h2>
-      <p class="studio__lede" data-reveal>We are specialists in design. Working hand in hand with each
+      <p class="eyebrow" data-reveal data-i18n="studio.eyebrow">Studio</p>
+      <h2 class="h2" data-reveal data-i18n-html="studio.title">Design, guided<br>by vision.</h2>
+      <p class="studio__lede" data-reveal data-i18n="studio.lede">We are specialists in design. Working hand in hand with each
         client's vision, we create architecture distinctive enough to become a landmark within its city.</p>
-      <p class="body" data-reveal>We walk alongside you through the entire process, making sure every
+      <p class="body" data-reveal data-i18n="studio.body">We walk alongside you through the entire process, making sure every
         design decision holds true to your expectations. And once you're ready to build, we stay close —
         advising and supervising together with your trusted builder, all the way to completion.</p>
 
       <dl class="studio__stats" data-reveal>
-        <div><dt>Typologies</dt><dd>Residential, urban, civic &amp; sport</dd></div>
-        <div><dt>Focus</dt><dd>Concept through feasibility</dd></div>
-        <div><dt>Method</dt><dd>Design, data &amp; visualisation</dd></div>
+        <div><dt data-i18n="studio.stat1.dt">Typologies</dt><dd data-i18n="studio.stat1.dd">Residential, urban, civic &amp; sport</dd></div>
+        <div><dt data-i18n="studio.stat2.dt">Focus</dt><dd data-i18n="studio.stat2.dd">Concept through feasibility</dd></div>
+        <div><dt data-i18n="studio.stat3.dt">Method</dt><dd data-i18n="studio.stat3.dd">Design, data &amp; visualisation</dd></div>
       </dl>
     </div>
 
     <div class="studio__media" data-reveal>
       <img src="assets/img/philosophy.jpg" alt="Aerial view of a city skyline at dusk, illustrating the studio's urban design work">
-      <span class="studio__media-cap">Together, we make city.</span>
+      <span class="studio__media-cap" data-i18n="studio.cap">Together, we make city.</span>
     </div>
   </div>
 </section>
@@ -115,9 +121,9 @@
   <div class="process__scrim"></div>
 
   <div class="process__head">
-    <p class="eyebrow eyebrow--light" data-reveal>Our Process</p>
-    <h2 class="h2 h2--light" data-reveal>Feasibility first.<br>Certainty before commitment.</h2>
-    <p class="process__lede" data-reveal>Giving shape to a development is a daunting task. We walk with
+    <p class="eyebrow eyebrow--light" data-reveal data-i18n="process.eyebrow">Our Process</p>
+    <h2 class="h2 h2--light" data-reveal data-i18n-html="process.title">Feasibility first.<br>Certainty before commitment.</h2>
+    <p class="process__lede" data-reveal data-i18n="process.lede">Giving shape to a development is a daunting task. We walk with
       you through the entire feasibility process, testing design alternatives side by side until your
       project reaches its most buildable, most profitable version — weaving residential, hospitality,
       retail, urban and landscape design into a single, coherent proposal.</p>
@@ -133,26 +139,26 @@
       <div class="process__step" data-reveal>
         <span class="process__num">01</span>
         <span class="process__node"></span>
-        <h3>Concept</h3>
-        <p>Site analysis and first design alternatives, tested against the brief.</p>
+        <h3 data-i18n="process.step1.title">Concept</h3>
+        <p data-i18n="process.step1.body">Site analysis and first design alternatives, tested against the brief.</p>
       </div>
       <div class="process__step" data-reveal>
         <span class="process__num">02</span>
         <span class="process__node"></span>
-        <h3>Feasibility</h3>
-        <p>Viability studies and massing options, optimised for value and buildability.</p>
+        <h3 data-i18n="process.step2.title">Feasibility</h3>
+        <p data-i18n="process.step2.body">Viability studies and massing options, optimised for value and buildability.</p>
       </div>
       <div class="process__step" data-reveal>
         <span class="process__num">03</span>
         <span class="process__node"></span>
-        <h3>Design Development</h3>
-        <p>Coordinated design from preliminary through detail, ready for tender.</p>
+        <h3 data-i18n="process.step3.title">Design Development</h3>
+        <p data-i18n="process.step3.body">Coordinated design from preliminary through detail, ready for tender.</p>
       </div>
       <div class="process__step" data-reveal>
         <span class="process__num">04</span>
         <span class="process__node"></span>
-        <h3>Delivery</h3>
-        <p>Advice and supervision alongside your trusted builder, through to completion.</p>
+        <h3 data-i18n="process.step4.title">Delivery</h3>
+        <p data-i18n="process.step4.body">Advice and supervision alongside your trusted builder, through to completion.</p>
       </div>
     </div>
   </div>
@@ -161,9 +167,9 @@
 <!-- ===== SERVICES ===== -->
 <section class="services" id="services">
   <div class="services__head">
-    <p class="eyebrow" data-reveal>Services</p>
-    <h2 class="h2" data-reveal>One studio, every<br>building typology.</h2>
-    <p class="services__lede" data-reveal>From a single private villa to the masterplan of a district,
+    <p class="eyebrow" data-reveal data-i18n="services.eyebrow">Services</p>
+    <h2 class="h2" data-reveal data-i18n-html="services.title">One studio, every<br>building typology.</h2>
+    <p class="services__lede" data-reveal data-i18n="services.lede">From a single private villa to the masterplan of a district,
       we bring the same rigour to every scale — and the same early-phase discipline that keeps each
       project grounded in what's actually buildable.</p>
   </div>
@@ -175,9 +181,9 @@
         <img src="assets/img/residential-private.jpg" alt="Minimalist contemporary villa with a pool, framed by palm trees at dusk">
       </div>
       <div class="card__body">
-        <span class="card__tag">Typ. 01</span>
-        <h3>Residential — Private Villas</h3>
-        <p>From premium family homes to the most exigent luxury briefs, we design tailored living
+        <span class="card__tag" data-i18n="card1.tag">Typ. 01</span>
+        <h3 data-i18n="card1.title">Residential — Private Villas</h3>
+        <p data-i18n="card1.body">From premium family homes to the most exigent luxury briefs, we design tailored living
           spaces built to the highest standard — pushing past convention wherever imagination allows.</p>
       </div>
     </article>
@@ -187,9 +193,9 @@
         <img src="assets/img/multi-residential.jpg" alt="Modern multi-storey residential building with balconies and landscaping">
       </div>
       <div class="card__body">
-        <span class="card__tag">Typ. 02</span>
-        <h3>Multi-Residential</h3>
-        <p>Pioneering shared living spaces designed around community — quality homes where people
+        <span class="card__tag" data-i18n="card2.tag">Typ. 02</span>
+        <h3 data-i18n="card2.title">Multi-Residential</h3>
+        <p data-i18n="card2.body">Pioneering shared living spaces designed around community — quality homes where people
           live, gather and feel safe.</p>
       </div>
     </article>
@@ -199,9 +205,9 @@
         <img src="assets/img/urban-landscape.jpg" alt="Aerial render of a coastal urban promenade and landscaped waterfront">
       </div>
       <div class="card__body">
-        <span class="card__tag">Typ. 03</span>
-        <h3>Urban &amp; Landscape Design</h3>
-        <p>Helping shape communities from the urban fabric up — quality public space for citizens
+        <span class="card__tag" data-i18n="card3.tag">Typ. 03</span>
+        <h3 data-i18n="card3.title">Urban &amp; Landscape Design</h3>
+        <p data-i18n="card3.body">Helping shape communities from the urban fabric up — quality public space for citizens
           of every age.</p>
       </div>
     </article>
@@ -211,9 +217,9 @@
         <img src="assets/img/sports-events.jpg" alt="Large stadium at dusk, illustrating a sports and events architecture project">
       </div>
       <div class="card__body">
-        <span class="card__tag">Typ. 04</span>
-        <h3>Sports &amp; Events</h3>
-        <p>Stadia, arenas and event venues designed as icons within the city's skyline — built for
+        <span class="card__tag" data-i18n="card4.tag">Typ. 04</span>
+        <h3 data-i18n="card4.title">Sports &amp; Events</h3>
+        <p data-i18n="card4.body">Stadia, arenas and event venues designed as icons within the city's skyline — built for
           the milestones of our shared social life.</p>
       </div>
     </article>
@@ -223,9 +229,9 @@
         <img src="assets/img/transportation.jpg" alt="Light-filled modern airport terminal interior">
       </div>
       <div class="card__body">
-        <span class="card__tag">Typ. 05</span>
-        <h3>Transportation</h3>
-        <p>Mobility is central to modern life. We design transit spaces that remove friction and
+        <span class="card__tag" data-i18n="card5.tag">Typ. 05</span>
+        <h3 data-i18n="card5.title">Transportation</h3>
+        <p data-i18n="card5.body">Mobility is central to modern life. We design transit spaces that remove friction and
           turn transit into experience.</p>
       </div>
     </article>
@@ -235,9 +241,9 @@
         <img src="assets/img/technology.jpg" alt="Close-up of a sculptural architectural facade, part of a computational design study">
       </div>
       <div class="card__body">
-        <span class="card__tag">Typ. 06</span>
-        <h3>Technology &amp; Visual Storytelling</h3>
-        <p>We use VR, AI and immersive visualisation to let clients experience a project before it's
+        <span class="card__tag" data-i18n="card6.tag">Typ. 06</span>
+        <h3 data-i18n="card6.title">Technology &amp; Visual Storytelling</h3>
+        <p data-i18n="card6.body">We use VR, AI and immersive visualisation to let clients experience a project before it's
           built — testing layouts, materials and atmosphere in real time, and telling its story in the
           most compelling way possible.</p>
       </div>
@@ -252,22 +258,24 @@
   <div class="contact__scrim"></div>
 
   <div class="contact__inner">
-    <p class="eyebrow eyebrow--light" data-reveal>Get in touch</p>
-    <h2 class="h2 h2--light" data-reveal>Let's shape<br>what's next.</h2>
-    <p class="contact__lede" data-reveal>Tell us about your site, your ambitions and your constraints —
+    <p class="eyebrow eyebrow--light" data-reveal data-i18n="contact.eyebrow">Get in touch</p>
+    <h2 class="h2 h2--light" data-reveal data-i18n-html="contact.title">Let's shape<br>what's next.</h2>
+    <p class="contact__lede" data-reveal data-i18n="contact.lede">Tell us about your site, your ambitions and your constraints —
       we'll help you find the most buildable, most profitable version of your project.</p>
 
     <div class="contact__row" data-reveal>
-      <a href="mailto:studio@arqlantico.com?subject=New%20project%20enquiry" class="btn btn--solid">
-        studio@arqlantico.com
+      <a href="mailto:arqlantico@gmail.com?subject=New%20project%20enquiry" class="btn btn--solid" data-i18n="contact.btn1">
+        Say Hello
       </a>
-      <a href="tel:+34000000000" class="btn btn--ghost">+34 000 000 000</a>
+      <a href="https://calendly.com/arqlantico" target="_blank" rel="noopener" class="btn btn--ghost" data-i18n="contact.btn2">
+        Book a Consultation
+      </a>
     </div>
 
     <div class="contact__meta" data-reveal>
-      <div><span class="eyebrow eyebrow--light">Studio</span><p>Costa de la Luz, Spain</p></div>
-      <div><span class="eyebrow eyebrow--light">Scope</span><p>Concept · Feasibility · Design Development</p></div>
-      <div><span class="eyebrow eyebrow--light">Follow</span><p><a href="#">Instagram</a> · <a href="#">LinkedIn</a></p></div>
+      <div><span class="eyebrow eyebrow--light" data-i18n="contact.meta.studio.label">Studio</span><p data-i18n="contact.meta.studio.value">Costa de la Luz, Spain</p></div>
+      <div><span class="eyebrow eyebrow--light" data-i18n="contact.meta.scope.label">Scope</span><p data-i18n="contact.meta.scope.value">Concept · Feasibility · Design Development</p></div>
+      <div><span class="eyebrow eyebrow--light" data-i18n="contact.meta.follow.label">Follow</span><p><a href="#">Instagram</a> · <a href="#">LinkedIn</a></p></div>
     </div>
   </div>
 </section>
@@ -285,10 +293,11 @@
       </svg>
       <span class="nav__word">Arqlántico</span>
     </a>
-    <p>&copy; <span id="year"></span> Arqlántico Studio. All rights reserved.</p>
+    <p>&copy; <span id="year"></span> <span data-i18n="footer.copyright">Arqlántico Studio. All rights reserved.</span></p>
   </div>
 </footer>
 
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
