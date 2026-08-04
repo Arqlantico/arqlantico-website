@@ -232,12 +232,89 @@ const ARQ_TRANSLATIONS = {
     "contact.meta.follow.label": "关注我们",
 
     "footer.copyright": "Arqlántico 建筑工作室。保留所有权利。"
+  },
+
+  ar: {
+    "nav.studio": "الاستوديو",
+    "nav.process": "منهجيتنا",
+    "nav.services": "الخدمات",
+    "nav.contact": "تواصل معنا",
+    "nav.cta": "ابدأ مشروعك",
+
+    "hero.eyebrow": "استوديو العمارة والتصميم الحضري",
+    "hero.title": "التفرّد جزء<br>من <em>جوهرنا.</em>",
+    "hero.sub": "نصوغ أكثر لحظات المشروع حسماً في مراحله الأولى — من أول رسم تخطيطي إلى دراسة جدوى مؤكدة — لنحوّل الرؤى الطموحة إلى معالم بارزة داخل المدينة.",
+    "hero.cta1": "ابدأ مشروعك",
+    "hero.cta2": "منهجيتنا",
+    "hero.meta": "استوديو ساحلي وحضري",
+    "hero.scroll": "مرر للأسفل",
+
+    "studio.eyebrow": "الاستوديو",
+    "studio.title": "تصميم تقوده<br>الرؤية.",
+    "studio.lede": "نحن متخصصون في التصميم. نعمل يداً بيد مع رؤية كل عميل، لنبتكر عمارة متفرّدة بما يكفي لتصبح معلماً داخل مدينتها.",
+    "studio.body": "نرافقكم خلال العملية بأكملها، ونحرص على أن يتوافق كل قرار تصميمي مع توقعاتكم. وحين تكونون جاهزين للبناء، نبقى إلى جانبكم — نقدّم الاستشارة والإشراف جنباً إلى جنب مع مقاول البناء الذي تثقون به، حتى إتمام المشروع.",
+    "studio.stat1.dt": "التخصصات",
+    "studio.stat1.dd": "سكني، حضري، عام ورياضي",
+    "studio.stat2.dt": "التركيز",
+    "studio.stat2.dd": "من التصور إلى دراسة الجدوى",
+    "studio.stat3.dt": "المنهجية",
+    "studio.stat3.dd": "التصميم، البيانات والتصور المرئي",
+    "studio.cap": "معاً، نصنع المدينة.",
+
+    "process.eyebrow": "منهجية عملنا",
+    "process.title": "الجدوى أولاً.<br>يقين قبل الالتزام.",
+    "process.lede": "بلورة مشروع تطويري مهمة شاقة. نرافقكم خلال عملية دراسة الجدوى بأكملها، ونختبر البدائل التصميمية جنباً إلى جنب حتى يصل مشروعكم إلى نسخته الأكثر قابلية للتنفيذ والأعلى ربحية — جامعين بين الاستخدامات السكنية والفندقية والتجارية والتصميم الحضري والمناظر الطبيعية في مقترح واحد متماسك.",
+    "process.step1.title": "التصور",
+    "process.step1.body": "تحليل الموقع وأولى البدائل التصميمية، يتم اختبارها في ضوء متطلبات المشروع.",
+    "process.step2.title": "دراسة الجدوى",
+    "process.step2.body": "دراسات جدوى وخيارات كتلية، مُحسَّنة من حيث القيمة وقابلية التنفيذ.",
+    "process.step3.title": "تطوير التصميم",
+    "process.step3.body": "تصميم منسّق من المرحلة الأولية وحتى التفاصيل، جاهز لطرح المناقصة.",
+    "process.step4.title": "التسليم",
+    "process.step4.body": "استشارة وإشراف جنباً إلى جنب مع مقاول البناء الذي تثقون به، وحتى إتمام المشروع.",
+
+    "services.eyebrow": "الخدمات",
+    "services.title": "استوديو واحد، لكل<br>أنماط المباني.",
+    "services.lede": "من فيلا سكنية واحدة إلى المخطط العام لحيّ كامل، نطبّق الصرامة ذاتها على كل مقياس — والانضباط ذاته في المراحل المبكرة الذي يبقي كل مشروع مرتكزاً على ما هو قابل للتنفيذ فعلياً.",
+
+    "card1.tag": "نمط ٠١",
+    "card1.title": "سكني — فلل خاصة",
+    "card1.body": "من المنازل العائلية الراقية إلى أكثر المتطلبات فخامة، نصمم مساحات سكنية مخصصة بأعلى المعايير — متجاوزين المألوف حيثما سمح الخيال.",
+    "card2.tag": "نمط ٠٢",
+    "card2.title": "سكني متعدد الوحدات",
+    "card2.body": "مساحات سكنية مشتركة رائدة، مصممة من أجل المجتمع — منازل عالية الجودة يعيش فيها الناس ويلتقون ويشعرون بالأمان.",
+    "card3.tag": "نمط ٠٣",
+    "card3.title": "التصميم الحضري والمناظر الطبيعية",
+    "card3.body": "نساهم في تشكيل المجتمعات انطلاقاً من النسيج الحضري ذاته — فضاءات عامة عالية الجودة لمواطنين من كل الأعمار.",
+    "card4.tag": "نمط ٠٤",
+    "card4.title": "الرياضة والفعاليات",
+    "card4.body": "ملاعب وصالات ومنشآت فعاليات مصممة لتكون معالم بارزة ضمن أفق المدينة — مُشيَّدة من أجل اللحظات الكبرى في حياتنا الاجتماعية المشتركة.",
+    "card5.tag": "نمط ٠٥",
+    "card5.title": "النقل",
+    "card5.body": "أصبح التنقل محورياً في الحياة الحديثة. نصمم مساحات النقل بحيث تزيل الاحتكاك وتحوّل التنقل إلى تجربة.",
+    "card6.tag": "نمط ٠٦",
+    "card6.title": "التقنية والسرد البصري",
+    "card6.body": "نستخدم الواقع الافتراضي والذكاء الاصطناعي والتصور الغامر لنمكّن العملاء من تجربة المشروع قبل إنشائه — باختبار المخططات والمواد والأجواء في الزمن الحقيقي، وسرد قصته بأكثر الطرق تأثيراً.",
+
+    "contact.eyebrow": "تواصل معنا",
+    "contact.title": "لنصمّم معاً<br>ما هو قادم.",
+    "contact.lede": "أخبرونا عن موقعكم وطموحاتكم ومحدداتكم — وسنساعدكم في إيجاد النسخة الأكثر قابلية للتنفيذ والأعلى ربحية من مشروعكم.",
+    "contact.btn1": "راسلنا",
+    "contact.btn2": "احجز استشارة",
+    "contact.meta.studio.label": "الاستوديو",
+    "contact.meta.studio.value": "كوستا دي لا لوث، إسبانيا",
+    "contact.meta.scope.label": "نطاق العمل",
+    "contact.meta.scope.value": "التصور · دراسة الجدوى · تطوير التصميم",
+    "contact.meta.follow.label": "تابعونا",
+
+    "footer.copyright": "استوديو أركلانتيكو. جميع الحقوق محفوظة."
   }
 };
 
 (function () {
   const STORAGE_KEY = "arq-lang";
-  const SUPPORTED = ["en", "es", "zh"];
+  const SUPPORTED = ["en", "es", "zh", "ar"];
+  const RTL_LANGS = ["ar"];
 
   function detectLanguage() {
     try {
@@ -253,6 +330,7 @@ const ARQ_TRANSLATIONS = {
       const l = raw.toLowerCase();
       if (l.startsWith("es")) return "es";
       if (l.startsWith("zh")) return "zh";
+      if (l.startsWith("ar")) return "ar";
       if (l.startsWith("en")) return "en";
     }
     return "en";
@@ -272,8 +350,11 @@ const ARQ_TRANSLATIONS = {
       if (dict[key] !== undefined) el.innerHTML = dict[key];
     });
 
+    const isRTL = RTL_LANGS.includes(lang);
     document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hans" : lang);
+    document.documentElement.setAttribute("dir", isRTL ? "rtl" : "ltr");
     document.documentElement.classList.toggle("lang-zh", lang === "zh");
+    document.documentElement.classList.toggle("lang-ar", lang === "ar");
 
     document.querySelectorAll(".lang-switch__btn").forEach(btn => {
       btn.classList.toggle("is-active", btn.getAttribute("data-lang") === lang);

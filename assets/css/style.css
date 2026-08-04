@@ -512,6 +512,39 @@ html.lang-zh .footer__row p{
 }
 
 /* ==========================================================================
+   RTL (Arabic) LAYOUT + TYPOGRAPHY
+   ========================================================================== */
+html[dir="rtl"] body{ font-family: "Noto Kufi Arabic", var(--sans); }
+html.lang-ar .h2,
+html.lang-ar .hero__title,
+html.lang-ar .studio__lede,
+html.lang-ar .studio__media-cap,
+html.lang-ar .process__step h3,
+html.lang-ar .mobile-menu a{
+  font-family: "Noto Kufi Arabic", var(--sans);
+  font-style: normal;
+  font-weight: 600;
+}
+html.lang-ar .hero__title em{ font-style: normal; color: var(--brass-light); }
+html.lang-ar .eyebrow,
+html.lang-ar .nav__word,
+html.lang-ar .nav__links a,
+html.lang-ar .nav__cta,
+html.lang-ar .lang-switch__btn,
+html.lang-ar .card__tag,
+html.lang-ar .btn,
+html.lang-ar .process__num,
+html.lang-ar .footer__row p{
+  font-family: "Noto Kufi Arabic", var(--sans);
+  letter-spacing: normal;
+}
+/* mirror the few explicitly-positioned (non-flex) elements */
+html[dir="rtl"] .eyebrow::before{ order: 2; }
+html[dir="rtl"] .studio__media-cap{ left: auto; right: 20px; }
+html[dir="rtl"] .process__steps{ direction: rtl; }
+html[dir="rtl"] .contact__meta{ text-align: right; }
+
+/* ==========================================================================
    RESPONSIVE
    ========================================================================== */
 @media (max-width: 980px){
